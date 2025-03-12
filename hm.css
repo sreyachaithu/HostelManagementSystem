@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("sss.jpg") no-repeat center center fixed; /* Make sure the path is correct */
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.logo h1 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-right-inf h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.one-frm input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-style {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn-style:hover {
+    background: #0056b3;
+}
+
+.already {
+    margin: 15px 0 10px;
+    font-size: 14px;
+}
+
+.already a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.already a:hover {
+    text-decoration: underline;
+}
+
